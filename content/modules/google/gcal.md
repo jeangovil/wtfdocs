@@ -31,6 +31,7 @@ gcal:
   enabled: true
   eventCount: 12
   multiCalendar: true
+  timeZone: "America/New_York"
   position:
     top: 0
     left: 0
@@ -97,6 +98,10 @@ Values: A positive integer, `0..n`.
 Whether or not to display your primary calendar or all calendars you
 have access to. <br />
 Values: `true`, or `false`
+
+`timeZone` <br />
+Time zone used in the calendar. <br />
+Values: A valid time zone string.
 
 `position` <br />
 Where in the grid this module's widget will be displayed. <br />
