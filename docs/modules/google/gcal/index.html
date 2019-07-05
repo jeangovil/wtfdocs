@@ -5,7 +5,7 @@
     
       <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="generator" content="Hugo 0.55.2" />
+<meta name="generator" content="Hugo 0.55.6" />
 <title>Google Calendar :: WTF - the terminal dashboard</title>
 <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -106,17 +106,24 @@
       <a href="/configuration/">Configuration</a><i class="fa fa-angle-right fa-lg category-icon"></i><i class="fa fa-circle-thin read-icon"></i>
       </div>
         <ul>
-      <li data-nav-id="/configuration/global_settings/" class="dd-item">
+      <li data-nav-id="/modules/cryptocurrencies/bittrex/" class="dd-item">
         <div>
-          <a href="/configuration/global_settings/">
-            Global Settings
+          <a href="/modules/cryptocurrencies/bittrex/">
+            Bittrex
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
-      <li data-nav-id="/configuration/grid_layout/" class="dd-item">
+      <li data-nav-id="/modules/cryptocurrencies/blockfolio/" class="dd-item">
         <div>
-          <a href="/configuration/grid_layout/">
-            Grid Layout
+          <a href="/modules/cryptocurrencies/blockfolio/">
+            Blockfolio
+          </a><i class="fa fa-circle-thin read-icon"></i>
+        </div>
+    </li>
+      <li data-nav-id="/modules/cryptocurrencies/cryptolive/" class="dd-item">
+        <div>
+          <a href="/modules/cryptocurrencies/cryptolive/">
+            CryptoLive
           </a><i class="fa fa-circle-thin read-icon"></i>
         </div>
     </li>
@@ -595,6 +602,7 @@
 </span><span class="w">  </span>enabled<span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
 </span><span class="w">  </span>eventCount<span class="p">:</span><span class="w"> </span><span class="m">12</span><span class="w">
 </span><span class="w">  </span>multiCalendar<span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">  </span>timeZone<span class="p">:</span><span class="w"> </span><span class="s2">&#34;America/New_York&#34;</span><span class="w">
 </span><span class="w">  </span>position<span class="p">:</span><span class="w">
 </span><span class="w">    </span>top<span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
 </span><span class="w">    </span>left<span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
@@ -659,6 +667,10 @@ Values: A positive integer, <code>0..n</code>.</p>
 Whether or not to display your primary calendar or all calendars you
 have access to. <br />
 Values: <code>true</code>, or <code>false</code></p>
+
+<p><code>timeZone</code> <br />
+Time zone used in the calendar. <br />
+Values: A valid time zone string.</p>
 
 <p><code>position</code> <br />
 Where in the grid this module&rsquo;s widget will be displayed. <br /></p>
